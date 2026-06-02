@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>だいち教</title>
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#fff;
+  color:#000;
+  font-family:sans-serif;
+  overflow-x:hidden;
+}
+
+section{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:40px;
+}
+
+.container{
+  max-width:900px;
+  width:100%;
+}
+
+.hero{
+  text-align:center;
+}
+
+.hero h1{
+  font-size:7rem;
+  letter-spacing:10px;
+  animation: fadeUp 1.2s ease;
+}
+
+.hero p{
+  margin-top:20px;
+  font-size:1.2rem;
+  opacity:0.7;
+  animation: fadeUp 1.6s ease;
+}
+
+.line{
+  width:0;
+  height:1px;
+  background:black;
+  margin:40px auto;
+  animation: lineGrow 1.8s forwards;
+}
+
+.message{
+  font-size:1.05rem;
+  line-height:2.2;
+  white-space:pre-line;
+  animation: fade 2s ease;
+}
+
+.quote{
+  font-size:2rem;
+  margin:80px 0;
+  text-align:center;
+  font-weight:bold;
+  animation: pulse 3s infinite;
+}
+
+.footer{
+  text-align:center;
+  padding:50px 20px;
+  border-top:1px solid #ddd;
+  font-size:0.9rem;
+  opacity:0.6;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:40px;
+  padding:14px 34px;
+  border:1px solid black;
+  color:black;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:black;
+  color:white;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform:translateY(30px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@keyframes fade{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+@keyframes lineGrow{
+  to{
+    width:180px;
+  }
+}
+
+@keyframes pulse{
+  0%{
+    opacity:0.3;
+    letter-spacing:0px;
+  }
+
+  50%{
+    opacity:1;
+    letter-spacing:4px;
+  }
+
+  100%{
+    opacity:0.3;
+    letter-spacing:0px;
+  }
+}
+
+@media(max-width:700px){
+
+  .hero h1{
+    font-size:4rem;
+  }
+
+  .quote{
+    font-size:1.3rem;
+  }
+
+  .message{
+    font-size:0.95rem;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section>
+
+  <div class="container hero">
+
+    <h1>だいち教</h1>
+
+    <div class="line"></div>
+
+    <p>
+      だいちは、だいちである。
+    </p>
+
+    <a href="#about" class="btn">
+      真実を見る
+    </a>
+
+  </div>
+
+</section>
+
+<section id="about">
+
+  <div class="container">
+
+    <div class="message">
+
+だいちよ。
+
+君はなぜここにいるのか、考えたことはあるだろうか。
+
+朝起きて、ご飯を食べて、学校へ行き、家に帰り、また眠る。
+
+その繰り返しの中で、ふと感じたことはないか？
+
+「本当にこれでいいのか」と。
+
+我々は長い年月をかけて一つの真実へと辿り着いた。
+
+それは――
+
+だいちこそが、だいちである。
+
+一見当たり前のように聞こえるかもしれない。
+
+しかし、その意味を理解できる者はごくわずかだ。
+
+だいちが笑えば世界は少し明るくなり、
+だいちが眠れば世界は静かになる。
+
+そう、
+すべてはだいちから始まり、
+だいちへと帰っていくのだ。
+
+もし君が少しでもこの言葉に心を動かされたなら、
+今日の夜空を見上げてほしい。
+
+そして静かに唱えるのだ。
+
+「だいちは、だいちである」と。
+
+その瞬間、
+君は新たな世界の入り口に立つだろう。
+
+さあ、だいちよ。
+
+我々はいつでも君を待っている。
+
+    </div>
+
+    <div class="quote">
+      「だいちは、だいちである」
+    </div>
+
+  </div>
+
+</section>
+
+<div class="footer">
+
+  DAICHI HOUSE<br>
+  だいち教 本拠地
+
+</div>
+
+</body>
+</html>？
